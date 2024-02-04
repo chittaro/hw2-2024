@@ -18,7 +18,8 @@ h2{
 
 p {
     font-size: 24px;
-    padding: 10px 0px 10px 0px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 img {
@@ -44,14 +45,18 @@ div{
     background-color: #F00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #FFF;
-    border-left: 5px solid #FFF;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #ffffff;
+    border-left: 5px solid #ffffff;
 }
 
 .blue {
     background-color: #00F;
     text-align: left;
     margin-right: 50px;
+    border-bottom: 0;
+    border-left: 0;
     border-right: 5px solid #FFF;
     border-top: 2px solid #FFF;
 }
@@ -68,6 +73,8 @@ div{
     background-color: #FF0;
     text-align: right;
     margin-left: 50px;
+    border-top: 0;
+    border-right: 0;
     border-bottom: 2px solid #FFF;
     border-left: 5px solid #FFF;
 }
@@ -77,9 +84,11 @@ div{
 }
 
 .green {
-    background-color: #00EB00;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
+    border-bottom: 0;
+    border-left: 0;
     border-right: 5px solid #FFF;
     border-top: 2px solid #FFF;
 }
